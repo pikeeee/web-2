@@ -1,0 +1,29 @@
+{
+  "name": "react-todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://pikeeee.github.io/web/",
+  "devDependencies": {
+    "react-scripts": "0.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "gh-pages": "^4.0.0",
+    "immutability-helper": "^2.1.1",
+    "jquery": "^3.6.1",
+    "keycode-js": "^0.0.4",
+    "react": "^15.4.2",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^15.4.2",
+    "react-router-dom": "^5.0.1",
+    "recompose": "^0.23.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
